@@ -67,8 +67,7 @@ export const App = () => {
     }
   }
 
-  const onSubmit = FormData => {
-    const { query } = FormData;
+  const onSubmit = query => {
     setSearchQuery(query);
     setPicsArr([]);
     setPage(1);
